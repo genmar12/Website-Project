@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,40,70), rgba(0,0,40,0)),url(images/10\ Use\ Cases\ for\ Using\ Laravel\ to\ Build\ Web\ App\ Development\ Projects.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    margin: 10px -5px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+nav .navigation ul li a:hover{
+    border: 2px solid white;
+    padding: 10px;
+    transition: 0.5s;
+    transform: scale(1s);
+    box-shadow: 0px 0px 38px #888888;
+}
+nav .title{
+    margin: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav .title img{
+    width: auto;
+    height: 60px;
+    padding: 0px 5px;
+    border-radius: 30px;
+}
+
+nav .title .title-names{
+    align-items: center;
+    justify-items: center;
+}
+
+nav .title .title-names, span, p{
+    color: white;
+    font-size: 22px;
+}
+
+nav .title .title-names p{
+    font-size: 10px;
+}

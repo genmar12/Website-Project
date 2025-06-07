@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(250, 230, 255);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+nav .navigation ul li{
+    list-style: none;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+    margin: 10px -5px;
+}
+
+nav .navigation ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+}
+nav .navigation ul li a:hover{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    transition: 0.5s;
+    transform: scale(0.15   s);
+    box-shadow: 0px 0px 38px #888888;
+}
+
+nav .title{
+    margin: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+
+nav .title img{
+    width: auto;
+    height: 60px;
+    padding: 0px 5px;
+    border-radius: 30px;
+}
+
+nav .title .title-names{
+    align-items: center;
+    justify-items: center;
+}
+
+nav .title .title-names, span, p{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+nav .title .title-names p{
+    font-size: 10px;
+}
+
+.content{
+    align-items: center;
+    justify-content: center;
+    margin: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.content .Statement{
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40rem;
+    height: auto;
+    margin-left: 4rem;
+}
+
+.content .Statement h1{
+    font-size: 50px;
+    margin: 20px 0px;
+    color: rgb(0, 0, 0);
+}
+
+.content .Statement p{
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.content .spans{
+    margin-top: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content .spans span{
+    flex-wrap: wrap;
+    display: flex;
+    word-spacing: 30px;
+    margin: 0px 30px;
+}
+
+.content .spans span:after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #f44336;
+    margin: auto;
+    transition: 0.5s;
+}
+.content .spans span:hover::after{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.content .Landing-pic{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.content .Landing-pic .Pics img{
+    width: 20rem;
+    height: auto;
+    display: flex;
+}
+
+.content .Landing-pic img{
+    width: 60%;
+    height: auto;
+    padding: 5px;
+    box-shadow: 50px;
+    display: grid;
+}
+
+.content .Landing-pic img:hover{
+    transition: 0.6s;
+    transform: scale(1s);
+    background-color: #888888;
+    box-shadow: 0px 0px 20px #888888;
+    opacity: 1000;
+}
+
+
+
+
+
+
+
+/* -------------------------------- MAIN -------------------------------- */
+.Main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #582a2a;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.Main .contents{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+}
+
+.Main .contents .Getthebest{
+    flex-wrap: wrap;
+    display: flex;
+}
+.Main .contents .Getthebest h1{
+    font-size: 35px;
+    color: white;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.Main  .contents .justify .Tables{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.Main .contents .justify .Tables .table-content{
+    height: auto;  
+    flex-wrap: wrap;
+    margin: 1rem 5rem;
+}
+
+.Main .contents .justify .Tables .table-content:hover{
+    transition: 0.5s;
+    transform: scale(0.15s);
+    box-shadow: white 0px 0px 40px;
+}
+
+
+.Main .contents .table-content img{
+    width: 25rem;
+}
+
+.Main .contents .fourstatement1{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.Main .contents .justify .fourstatement1 .statement1{
+    color: white;
+    width: 20rem;
+    justify-items: center;
+    margin: 15px;
+    margin: 1rem 8.7em;
+}
+
