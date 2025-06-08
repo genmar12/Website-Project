@@ -34,11 +34,9 @@ nav .navigation ul li a{
     border-radius: 10px;
 }
 nav .navigation ul li a:hover{
-    border: 2px solid rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
     transition: 0.5s;
-    transform: scale(0.15   s);
-    box-shadow: 0px 0px 38px #888888;
 }
 
 nav .title{
@@ -71,23 +69,20 @@ nav .title .title-names p{
 .content{
     align-items: center;
     justify-content: center;
-    margin: 0rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 40px;
+    padding: 20px;
 }
 
 .content .Statement{
     align-items: center;
-    justify-items: center;
+    justify-content: center;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 40rem;
     height: auto;
-    margin-left: 4rem;
 }
 
 .content .Statement h1{
@@ -99,19 +94,24 @@ nav .title .title-names p{
 .content .Statement p{
     font-size: 20px;
     padding: 10px 10px;
+    color: black;
 }
 
 .content .spans{
     margin-top: 10rem;
+    margin-bottom: 2rem;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .content .spans span{
     flex-wrap: wrap;
     display: flex;
     word-spacing: 30px;
-    margin: 0px 30px;
+    margin: 10px 30px;
+
 }
 
 .content .spans span:after{
@@ -130,12 +130,14 @@ nav .title .title-names p{
 .content .Landing-pic{
     flex-wrap: wrap;
     display: flex;
+    justify-content: center;
 }
 
 .content .Landing-pic .Pics img{
     width: 20rem;
     height: auto;
-    display: flex;
+    display: grid;
+    flex-wrap: wrap;
 }
 
 .content .Landing-pic img{
@@ -162,16 +164,12 @@ nav .title .title-names p{
 
 /* -------------------------------- MAIN -------------------------------- */
 .Main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    background-color: #582a2a;
-    background-size: cover;
-    background-position: center;
     min-height: 100vh;
     width: 100%;
+    background-color: #582a2a;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 .Main .contents{
@@ -179,12 +177,14 @@ nav .title .title-names p{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px; 
+    padding: 10px; 
 }
 
 .Main .contents .Getthebest{
     flex-wrap: wrap;
     display: flex;
+    text-align: center;
+    margin-top: 2rem;
 }
 .Main .contents .Getthebest h1{
     font-size: 35px;
@@ -193,47 +193,48 @@ nav .title .title-names p{
     display: flex;
 }
 
-.Main  .contents .justify .Tables{
-    display: flex;
-    flex-wrap: wrap;
+.Main .contents .justify .Tables .table-content img{
+    max-width: 100%;
+    min-width: 1vh;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Main .contents .justify{
+    padding: 0;
+    margin: 0;
+}
+
+.Main .contents .justify .Tables{
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
-
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    padding: 0;
 }
 
 .Main .contents .justify .Tables .table-content{
-    height: auto;  
-    flex-wrap: wrap;
-    margin: 1rem 5rem;
-}
-
-.Main .contents .justify .Tables .table-content:hover{
-    transition: 0.5s;
-    transform: scale(0.15s);
-    box-shadow: white 0px 0px 40px;
-}
-
-
-.Main .contents .table-content img{
-    width: 25rem;
-}
-
-.Main .contents .fourstatement1{
-     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    text-align: center;
-
+    max-width: 20%;
+    height: auto;
+    flex-wrap: wrap;    
+    margin: 2% 2%;
+    display: flex;
+    /* background-color: orange; */
+    padding: 2px;
 }
 
-.Main .contents .justify .fourstatement1 .statement1{
+
+
+.Main .contents .justify .Tables .table-content .statement1 p{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: white;
-    width: 20rem;
-    justify-items: center;
-    margin: 15px;
-    margin: 1rem 8.7em;
+    word-wrap: break-word;
+    font-size: 20px;
+    max-width: 20rem;
 }
 
