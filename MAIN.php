@@ -17,12 +17,19 @@
                     <span>UNITECH</span>
                     <p>Universal Technology</p>
                 </div>
-
             </div>
+
+            <div class="forms">
+                <form action="SEARCH.html" method="POST">
+                    <input type="text" name="Search">
+                    <input type="submit">
+                </form>
+            </div>
+
             <div class="navigation">
                 <ul>
                     <li>
-                        <a href="">HOME</a>
+                        <a href="HOME.html">HOME</a>
                     </li>
                     <li>
                         <a href="">CONTACTS</a>

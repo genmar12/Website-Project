@@ -66,6 +66,17 @@ nav .title .title-names p{
     font-size: 10px;
 }
 
+nav .forms{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+nav .forms input{
+    height: 30px;
+}
+
 .content{
     align-items: center;
     justify-content: center;
@@ -194,7 +205,7 @@ nav .title .title-names p{
 }
 
 .Main .contents .justify .Tables .table-content img{
-    max-width: 100%;
+    max-width: 90%;
     min-width: 1vh;
     height: auto;
     margin-bottom: 20px;
@@ -234,7 +245,7 @@ nav .title .title-names p{
     text-align: center;
     color: white;
     word-wrap: break-word;
-    font-size: 20px;
+    font-size: 16px;
     max-width: 20rem;
 }
 
