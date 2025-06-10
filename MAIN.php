@@ -19,13 +19,6 @@
                 </div>
             </div>
 
-            <div class="forms">
-                <form action="SEARCH.html" method="POST">
-                    <input type="text" name="Search">
-                    <input type="submit">
-                </form>
-            </div>
-
             <div class="navigation">
                 <ul>
                     <li>
