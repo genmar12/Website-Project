@@ -39,6 +39,25 @@ nav .navigation ul li a:hover{
     transition: 0.5s;
 }
 
+nav .getstarted{
+    text-decoration: none;
+    align-items: center;
+    justify-items: center;
+    display: flex;
+}
+
+nav .getstarted a{
+    text-decoration: none;
+    text-align: center;
+    background-color: green;
+    padding: 10px;
+    color: white;
+}
+
+nav .getstarted:hover{
+    transform: scale(1.10);
+}
+
 nav .title{
     margin: 5px 20px;
     display: flex;
